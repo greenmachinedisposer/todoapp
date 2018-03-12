@@ -1,0 +1,33 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "This is my first To Do Application using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "npm run build",
+     "build" : "webpack -d && webpack-dev-server --content-base --inline --hot --port 1234"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenmachinedisposer/todoapp.git"
+  },
+  "author": "Jurol James R. Cabaluna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greenmachinedisposer/todoapp/issues"
+  },
+  "homepage": "https://github.com/greenmachinedisposer/todoapp#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.1.1",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
