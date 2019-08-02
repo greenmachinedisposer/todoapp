@@ -4,7 +4,6 @@
   "description": "This is my first To Do Application using React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build",
     "build": "webpack -d && webpack-dev-server --content-base --inline --hot --port 1234 --history-api-fallback"
   },
@@ -22,6 +21,7 @@
     "leaflet": "^1.3.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-leaflet": "^2.4.0",
     "react-router": "^4.2.0"
   },
   "devDependencies": {
